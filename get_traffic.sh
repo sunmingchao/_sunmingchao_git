@@ -49,7 +49,6 @@ sh $0 -v 2c -c public -H 192.168.50.90 -i eth0 -W 10,60,10,60 -C 5,80,5,80 -K -D
 helpdoc
 }
 
-
 while getopts :v:c:H:i:W:C:hKMD OPTION;do
 	case $OPTION in 
 		D)
